@@ -5,11 +5,11 @@ type=$1
 output=$(/usr/sbin/rfkill list -no SOFT $type)
 
 if [[ $output == "blocked
-blocked" ]]; then
+blocked" || $output == "blocked" ]]; then
     status=blocked
     color=red
 elif [[ $output == "unblocked
-unblocked" ]]; then
+unblocked" || $output == "unblocked" ]]; then
     status=unblocked
     color=green
 else
