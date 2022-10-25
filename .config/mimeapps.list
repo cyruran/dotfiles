@@ -1,0 +1,10 @@
+[Added Associations]
+image/png=org.gnome.Evince.desktop;mirage.desktop;
+image/jpeg=mirage.desktop;
+video/mp4=vlc.desktop;
+text/plain=mousepad.desktop;
+application/pdf=org.gnome.Evince.desktop;
+
+[Default Applications]
+image/png=mirage.desktop
+application/pdf=org.gnome.Evince.desktop
