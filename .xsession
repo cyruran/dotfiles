@@ -1,4 +1,4 @@
-redshift &
+redshift -l 59:30 &
 xfsettingsd &
 xfce4-power-manager &
 pavucontrol &
@@ -8,5 +8,4 @@ pavucontrol &
 ) &
 xmodmap -e 'clear lock'
 setxkbmap -option caps:none
-/home/cyril/misc/x11/layout_per_window &
 exec i3
